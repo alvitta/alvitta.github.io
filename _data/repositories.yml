@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - alvittao
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - washuvis/minivlat
+  - washuvis/vis2022guideddiscovery
+  - washuvis/vis2022usermodels
+  - washuvis/letsgamble
+  - washuvis/particles
+  - tuftsvalt/bayes

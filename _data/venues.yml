@@ -1,6 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"IEEE VIS":
+  url: https://ieeevis.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"EuroVis":
+  url: https://www.eurovis.org/
+
+"ACM CHI":
+  url: https://chi2023.acm.org/
