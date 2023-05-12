@@ -6,7 +6,7 @@ subtitle: Assistant Professor of Computer Science and Engineering
 
 profile:
   align: left
-  image: ao.jpg
+  image: /assets/img/ao.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>McKelvey Hall, Room 2032</p>
