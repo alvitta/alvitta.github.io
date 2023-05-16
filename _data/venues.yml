@@ -1,9 +1,9 @@
-"IEEE VIS":
+"vis":
   url: https://ieeevis.org/
   color: "#00369f"
 
-"EuroVis":
+"eurovis":
   url: https://www.eurovis.org/
 
-"ACM CHI":
+"chi":
   url: https://chi2023.acm.org/

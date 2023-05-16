@@ -14,3 +14,31 @@
   - firstname: ["Saugat", "S."]
     url: https://iamsaugatpandey.github.io/
 
+"Garnett":
+  - firstname: ["Roman", "R."]
+    url: https://www.cse.wustl.edu/~garnett/
+
+"Crouser":
+  - firstname: ["R. Jordan", "R.", "R. J.", "R Jordan"]
+    url: https://jcrouser.github.io/
+
+"Battle":
+  - firstname: ["Leilani", "L."]
+    url: https://homes.cs.washington.edu/~leibatt/bio.html
+
+"Gotz":
+  - firstname: ["David", "D."]
+    url: https://vaclab.unc.edu/gotz/
+
+"Chang": 
+  - firstname: ["Remco", "R."]
+    url: http://www.cs.tufts.edu/~remco/
+
+"Mosca":
+  - firstname: ["Ab", "A.", "A"]
+    url: https://www.khoury.northeastern.edu/home/amosca/
+
+"Guo":
+  - firstname: ["Mengtian", "M."]
+    url: https://vaclab.unc.edu/authors/mengtian-guo/
+
