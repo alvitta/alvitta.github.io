@@ -83,12 +83,6 @@
         </div>
       </nav>
 
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
     </header>
 
 
@@ -129,7 +123,13 @@
           </div>
 
           <div class="clearfix">
-            <p>I am an Assistant Professor in Computer Science &amp; Engineering Department at Washington University in St. Louis, Missouri, USA and the directory of the <a href="https://visualdata.wustl.edu" rel="external nofollow noopener" target="_blank">Visaul Data Analysis Lab</a>. I also hold a courtesy appointment in the Psychological and Brain Sciences Department. My research uses interdisciplinary approaches to solve problems such as how best to display information for effective decision-making and how to design human-in-the-loop visual analytics interfaces that are more attuned to how people think. I am deeply honored to have received an NSF CRII Award in 2018 for using visualization to support medical decision-making, an NSF Career Award in 2022 for creating context-aware visual analytics systems, and the 2022 EuroVis Early Career Award. In addition, my work has appeared in leading conferences and journals such as CHI, VIS, and TVCG, achieving the best paper and honorable mention awards.</p>
+            <p>I am an Assistant Professor in the Computer Science &amp; Engineering Department at Washington University in St. Louis, Missouri, USA. I am also the director of the <a href="https://visualdata.wustl.edu" rel="external nofollow noopener" target="_blank">Visual Interface and Behavior Exploration (VIBE)</a> Lab, and hold a courtesy appointment in the Psychological and Brain Sciences Department.</p>
+
+<p>My research uses interdisciplinary approaches to solve problems such as how best to display information for effective decision-making and how to design human-in-the-loop visual analytics interfaces that are more attuned to how people think.</p>
+
+<p>I am deeply honored to have received the NSF CRII Award in 2018 for using visualization to support medical decision-making, the NSF Career Award in 2022 for creating context-aware visual analytics systems, and the 2022 EuroVis Early Career Award. My work has also appeared in leading conferences and journals such as CHI, VIS, and TVCG, where it has received best paper and honorable mention awards.</p>
+
+<p>Supervised by <a href="http://www.cs.tufts.edu/~remco/" rel="external nofollow noopener" target="_blank">Dr. Remco Chang</a>, I received my Master’s and Ph.D. in Computer Science from Tufts University in 2013 and 2016, respectively. I completed my Bachelor’s Degree in Computer Science from the State University of New York at Plattsburgh in 2010.</p>
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
@@ -139,7 +139,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- News -->
           <h2><a href="/news/" style="color: inherit;">news</a></h2>          <div class="news">
-            <div class="table-responsive" style="max-height: 60vw">
+            <div class="table-responsive">
               <table class="table table-sm table-borderless">
               
                 <tr>
@@ -532,83 +532,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
     
     
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
 
   </body>
 </html>
