@@ -31,13 +31,17 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Assistant Professor of Computer Science
+    - title: Associate Professor of Computer Science
       institution: Washington University in St. Louis, MO, USA
-      year: 2016 - 
+      year: 2023 - 
 
     - title: Assistant Professor of Psycological and Brain Sciences (by courtesy)
       institution: Washington University in St. Louis, MO, USA
       year: 2016 -
+
+    - title: Assistant Professor of Computer Science
+      institution: Washington University in St. Louis, MO, USA
+      year: 2016 - 2023
 
     - title: Summer Research Intern
       institution: IBM Research, Almaden, CA, USA
@@ -54,6 +58,7 @@
   contents:
     - year: 2023
       items: 
+        - General Chair for Visualization in Data Science (VDS) Symposium
         - Best Paper Award for EuroVis
         
     - year: 2022
