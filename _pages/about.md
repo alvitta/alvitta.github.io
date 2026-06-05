@@ -26,6 +26,75 @@ I am deeply honored to have received the NSF CRII Award in 2018 for using visual
 Supervised by [Dr. Remco Chang](http://www.cs.tufts.edu/~remco/), I received my Master's and Ph.D. in Computer Science from Tufts University in 2013 and 2016, respectively. I completed my Bachelor's in Computer Science from the State University of New York at Plattsburgh in 2010.
 
 
+## books
+
+Alongside my research, I write about research culture, decision-making,
+uncertainty, and academic life.
+
+<div class="book-row">
+  <img src="/assets/img/local-optimization-cover.png"
+       alt="Local Optimization cover"
+       class="book-cover">
+
+  <div class="book-info">
+    <h4>Local Optimization</h4>
+    <p><em>What if success doesn't require a five-year plan?</em></p>
+    <p>
+      A short reflective memoir about decision-making, uncertainty,
+      and building a career through local optimization instead of attempting
+      to predict the future.
+    </p>
+    <a href="https://www.amazon.com/dp/B0H2393C24">Available Here</a>
+  </div>
+</div>
+
+<div class="book-row">
+  <img src="/assets/img/letters-young-researcher-cover.png"
+       alt="Letters to a Young Researcher cover"
+       class="book-cover">
+
+  <div class="book-info">
+    <h4>Letters to a Young Researcher</h4>
+    <p><em> What does it really mean to become a researcher?</em></p>
+    <p>
+      A collection of reflections on research, failure, writing,
+      confidence, and navigating academia. It is the book I wish I hard as a student.
+    </p>
+    <a href="https://www.amazon.com/dp/B0H2YNVDT6">Available Here</a>
+  </div>
+</div>
+
+<!-- 
+## Books
+
+Alongside my research, I write about research culture, decision-making, uncertainty, and academic life.
+
+<div class="row">
+  <div class="col-sm-6 mt-3">
+    <div class="card h-100 book-card">
+      <img src="/assets/img/local-optimization-cover.png" class="card-img-top" alt="Local Optimization book cover">
+      <div class="card-body">
+        <h4 class="card-title">Local Optimization</h4>
+        <p><em>What if success doesn't require a five-year plan?</em></p>
+        <p>A short reflective memoir about decision-making, uncertainty, and building a career through local optimization.</p>
+        <a href="https://www.amazon.com/dp/B0H2393C24" class="btn btn-sm btn-outline-primary">Available Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 mt-3">
+    <div class="card h-100 book-card">
+      <img src="/assets/img/letters-young-researcher-cover.png" class="card-img-top" alt="Letters to a Young Researcher book cover">
+      <div class="card-body">
+        <h4 class="card-title">Letters to a Young Researcher</h4>
+        <p><em> What does it really mean to become a researcher?</em></p>
+        <p>A collection of reflections on research, failure, writing, confidence, and navigating academia. It is the book I wish I hard as a student.</p>
+        <a href="https://www.amazon.com/dp/B0H2YNVDT6" class="btn btn-sm btn-outline-primary">Available Here</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br/> -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
