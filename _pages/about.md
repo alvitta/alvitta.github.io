@@ -47,7 +47,7 @@ uncertainty, and academic life.
     <a href="https://www.amazon.com/dp/B0H2393C24">Available Here</a>
   </div>
 </div>
-
+<br/>
 <div class="book-row">
   <img src="/assets/img/letters-young-researcher-cover.png"
        alt="Letters to a Young Researcher cover"
@@ -63,6 +63,7 @@ uncertainty, and academic life.
     <a href="https://www.amazon.com/dp/B0H2YNVDT6">Available Here</a>
   </div>
 </div>
+<br/>
 
 <!-- 
 ## Books
