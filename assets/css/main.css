@@ -990,5 +990,35 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+.book-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.book-cover {
+  width: 140px;
+  flex-shrink: 0;
+  border: 1px solid #eee;
+}
+
+.book-info h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.book-info p {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .book-row {
+    flex-direction: column;
+  }
+  .book-cover {
+    width: 180px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
