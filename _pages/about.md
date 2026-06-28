@@ -44,7 +44,7 @@ uncertainty, and academic life.
       and building a career through local optimization instead of attempting
       to predict the future.
     </p>
-    <a href="https://www.amazon.com/dp/B0H2393C24">Available Here</a>
+    <a href="https://amzn.to/4gLk6fm">Available Here</a>
   </div>
 </div>
 <br/>
@@ -60,7 +60,7 @@ uncertainty, and academic life.
       A collection of reflections on research, failure, writing,
       confidence, and navigating academia. It is the book I wish I hard as a student.
     </p>
-    <a href="https://www.amazon.com/dp/B0H2YNVDT6">Available Here</a>
+    <a href="https://amzn.to/4eSIbOR">Available Here</a>
   </div>
 </div>
 <br/>
