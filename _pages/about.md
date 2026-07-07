@@ -9,6 +9,8 @@ profile:
   image: ao.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p><a href="mailto:alvitta@wustl.edu">Email</a></p>
+    <p><a href="https://www.linkedin.com/in/alvitta/">LinkedIn</a></p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -16,18 +18,55 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+I study how people make decisions with data, uncertainty, and AI.
 
-I am an Associate Professor in the Computer Science & Engineering Department at Washington University in St. Louis, Missouri, USA. I am also the director of the [Visual Interface and Behavior Exploration (VIBE)](https://visualdata.wustl.edu) Lab and hold a courtesy appointment in the Psychological and Brain Sciences Department.
+I am an Associate Professor of Computer Science & Engineering at Washington University in St. Louis, where I direct the [Visual Interface and Behavior Exploration (VIBE)](https://visualdata.wustl.edu) Lab. My research brings together data visualization, human-AI collaboration, and decision-making under uncertainty to design systems that help people reason more effectively in complex environments.
 
-My research uses interdisciplinary approaches to solve problems such as how best to display information for effective decision-making and how to design human-in-the-loop visual analytics interfaces that are more attuned to how people think.
+I also write reflective nonfiction about research culture, uncertainty, decision-making, and the unexpected paths that shape academic and professional life.
 
-I am deeply honored to have received the NSF CRII Award in 2018 for using visualization to support medical decision-making, the NSF Career Award in 2022 for creating context-aware visual analytics systems, and the 2022 EuroVis Early Career Award. My work has also appeared in leading conferences and journals such as CHI, VIS, and TVCG, where it has received the best paper and honorable mention awards.
+## research
 
-Supervised by [Dr. Remco Chang](http://www.cs.tufts.edu/~remco/), I received my Master's and Ph.D. in Computer Science from Tufts University in 2013 and 2016, respectively. I completed my Bachelor's in Computer Science from the State University of New York at Plattsburgh in 2010.
+My work examines how people interpret visual information, collaborate with AI systems, and make decisions when evidence is incomplete, uncertain, or difficult to communicate. I develop visualization and visual analytics techniques that support human judgment rather than replace it.
+
+My research has been recognized with the NSF CRII Award, the NSF CAREER Award, and the EuroVis Early Career Award. It has appeared in leading venues including ACM CHI, IEEE VIS, and IEEE Transactions on Visualization and Computer Graphics, where it has received Best Paper and Honorable Mention awards.
+
+I also hold a courtesy appointment in the Department of Psychological and Brain Sciences and serve as an independent representative for Saint Kitts and Nevis on the [UN's Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en).
 
 
 ## books
 
+Alongside my research, I write about research culture, decision-making, uncertainty, and academic life.
+
+<div class="book-grid">
+  <div class="book-card">
+    <img src="/assets/img/local-optimization-cover.png"
+         alt="Local Optimization cover">
+
+    <h4>Local Optimization</h4>
+    <p><em>What if success doesn't require a five-year plan?</em></p>
+    <br>
+    <p>
+      A short reflective memoir about decision-making, uncertainty, and building
+      a career without trying to predict the future.
+    </p>
+    <a href="https://amzn.to/4gLk6fm">Available here</a>
+  </div>
+
+  <div class="book-card">
+    <img src="/assets/img/letters-young-researcher-cover.png"
+         alt="Letters to a Young Researcher cover">
+
+    <h4>Letters to a Young Researcher</h4>
+    <p><em>What does it really mean to become a researcher?</em></p>
+    <p>
+      Reflections on research, failure, writing, confidence, and navigating
+      academia. It is the book I wish I had as a student.
+    </p>
+    <a href="https://amzn.to/4eSIbOR">Available here</a>
+  </div>
+</div>
+
+<!-- ## books
 Alongside my research, I write about research culture, decision-making,
 uncertainty, and academic life.
 
@@ -58,44 +97,14 @@ uncertainty, and academic life.
     <p><em> What does it really mean to become a researcher?</em></p>
     <p>
       A collection of reflections on research, failure, writing,
-      confidence, and navigating academia. It is the book I wish I hard as a student.
+      confidence, and navigating academia.
     </p>
     <a href="https://amzn.to/4eSIbOR">Available Here</a>
   </div>
 </div>
-<br/>
-
-<!-- 
-## Books
-
-Alongside my research, I write about research culture, decision-making, uncertainty, and academic life.
-
-<div class="row">
-  <div class="col-sm-6 mt-3">
-    <div class="card h-100 book-card">
-      <img src="/assets/img/local-optimization-cover.png" class="card-img-top" alt="Local Optimization book cover">
-      <div class="card-body">
-        <h4 class="card-title">Local Optimization</h4>
-        <p><em>What if success doesn't require a five-year plan?</em></p>
-        <p>A short reflective memoir about decision-making, uncertainty, and building a career through local optimization.</p>
-        <a href="https://www.amazon.com/dp/B0H2393C24" class="btn btn-sm btn-outline-primary">Available Here</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-6 mt-3">
-    <div class="card h-100 book-card">
-      <img src="/assets/img/letters-young-researcher-cover.png" class="card-img-top" alt="Letters to a Young Researcher book cover">
-      <div class="card-body">
-        <h4 class="card-title">Letters to a Young Researcher</h4>
-        <p><em> What does it really mean to become a researcher?</em></p>
-        <p>A collection of reflections on research, failure, writing, confidence, and navigating academia. It is the book I wish I hard as a student.</p>
-        <a href="https://www.amazon.com/dp/B0H2YNVDT6" class="btn btn-sm btn-outline-primary">Available Here</a>
-      </div>
-    </div>
-  </div>
-</div>
 <br/> -->
+
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
