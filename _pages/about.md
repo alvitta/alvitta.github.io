@@ -6,8 +6,8 @@ subtitle: Associate Professor of Computer Science and Engineering | Washington U
 
 profile:
   align: left
-  image: ao.jpg
-  image_circular: false # crops the image to make it circular
+  image: alvitta.png
+  image_circular: true # crops the image to make it circular
   address: >
     <p><a href="mailto:alvitta@wustl.edu">Email</a></p>
     <p><a href="https://www.linkedin.com/in/alvitta/">LinkedIn</a></p>
@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I study how people make decisions with data, uncertainty, and AI.
+<br>I study how people make decisions with data, uncertainty, and AI.
 
 I am an Associate Professor of Computer Science & Engineering at Washington University in St. Louis, where I direct the [Visual Interface and Behavior Exploration (VIBE)](https://visualdata.wustl.edu) Lab. My research brings together data visualization, human-AI collaboration, and decision-making under uncertainty to design systems that help people reason more effectively in complex environments.
 
-I also write reflective nonfiction about research culture, uncertainty, decision-making, and the unexpected paths that shape academic and professional life.
+I also write reflective nonfiction about research culture, uncertainty, decision-making, and the unexpected paths that shape academic and professional life.<br><br>
 
 ## research
 
