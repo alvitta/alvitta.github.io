@@ -1,3 +1,23 @@
+"Johnson":
+  - firstname: ["Caitlin","C."]
+    url: https://policyviz.com/about/
+
+"Ghosh":
+  - firstname: ["Saurav","S."]
+    url: https://ghoshsaurav.github.io/
+
+"Williams":
+  - firstname: ["Lemara","L."]
+    url: https://lemarawilliams.github.io/
+
+"Hines":
+  - firstname: ["Mia","M."]
+    url: https://miahines.github.io/
+
+"Schwabish":
+  - firstname: ["Jon","Jonathan","J."]
+    url: https://policyviz.com/about/
+    
 "McKinley":
   - firstname: ["Oen G", "Oen G.","O. G.", "Oen", "O."]
     url: https://oenmckinley.github.io/
